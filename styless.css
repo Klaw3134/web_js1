@@ -1,0 +1,28 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    background: #f7fafc;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.thumb{
+    width: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.thumb:hover{
+    transform: scale(1.05);
+}
+
+.preview img{
+    width: 600px;
+    border-radius: 12px;
+}
